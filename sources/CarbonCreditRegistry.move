@@ -4,9 +4,9 @@ module CarbonCreditRegistr::CarbonCreditRegistry {
     use aptos_framework::aptos_coin::AptosCoin;
 
     struct CarbonCredit has store, key {
-        total_credits: u64,      // Total carbon credits owned
-        verified_credits: u64,   // Verified carbon credits available for trading
-        price_per_credit: u64,   // Price per carbon credit in APT tokens
+        total_credits: u64,      
+        verified_credits: u64,   
+        price_per_credit: u64,   
     }
 
     const E_INSUFFICIENT_CREDITS: u64 = 1;
