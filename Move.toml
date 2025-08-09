@@ -1,0 +1,16 @@
+[package]
+name = "CarbonCreditRegistr"
+version = "1.0.0"
+authors = []
+
+[addresses]
+CarbonCreditRegistr = "0x59230c105da093b4b2e2be0f72fb906b20897685d7def6bc7b392c2656153ef6"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
